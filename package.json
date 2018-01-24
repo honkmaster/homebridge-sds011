@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-sds0111",
+  "version": "0.1",
+  "description": "Homebridge module for displaying Nova SDS011 sensor data (air quality).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/honkmaster/homebridge-sds011.git"
+  },
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=6.0.0",
+	"fakegato-history": "^0.3.5",
+  },
+  "keywords": [
+    "homebridge-plugin",
+	"homebridge",
+    "sds011",
+    "homekit",
+	"feinstaub"
+  ],
+  "author": "Tobias Tiemerding <tobias@tiemerding.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/honkmaster/homebridge-sds011/issues"
+  },
+  "homepage": "https://github.com/honkmaster/homebridge-sds011#readme"
+}
